@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/05/81/59/61/360_F_581596130_SYR8NdzWPQuCiJHsxhDXVHT2M0AKRr9U.jpg");
+    color: white !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: white !important;
+    margin: 1%;
+}
+
+header>img{
+    width: 75px;
+    border-radius: 50%;
+}
+#home{
+    margin: 2%;
+    text-align: center;
+}
+.title{
+    margin: 2%;
+    font-style: italic;
+    font-size: 50px;
+}
+.neon{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; 
+}
+p{
+    font-size: 40px;
+}
+#contact{
+    margin: 5%;
+}
+input{
+    margin: 1%;
+    width: 400px;
+}
+textarea{
+    margin: 1%;
+    width: 400px;
+}
+#call-to-action{
+    margin: 2%;
+    width: 500px;
+    height: 75px;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    color: white;
+    font-size: large;
+    font-style: italic;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; 
+}
+
+.btn{
+    margin: 2%;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    color: white;
+    font-size: large;
+    font-style: italic;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; 
+}
+a:hover{
+    cursor: pointer;
+    color:purple !important ;
+}
